@@ -10,7 +10,8 @@ from pyspark.sql.functions import col
 logging.basicConfig(
     filename='./etl_process.log',
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    encoding='utf-8'
 )
 
 
